@@ -1,11 +1,11 @@
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log('EQUAL!!');
-    return true;
+    //return true;
   } else {
     console.log('NOT EQUAL!!!');
-    return false;
+    //return false;
   }
 };
 
-
+module.exports = assertEqual;
