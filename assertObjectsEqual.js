@@ -26,20 +26,20 @@ const eqObjects = function(object1, object2) {
      console.log("objects are not equal")
    }
  }
-keys = Object.keys(obj1)
-for (key in keys) {
-  if (obj2[key] !== obj1[key]) {
-    return false;
-      }
-  }
+// keys = Object.keys(obj1)
+// for (key in keys) {
+//   if (obj2[key] !== obj1[key]) {
+//     return false;
+//       }
+//   }
 
-keys = Object.keys(obj2)
-for (key in keys) {
-  if (obj2[key] !== obj1[key]) {
-return false;
-  }
-}
-const assertObjectsEqual = function(actual, expected) {
+// keys = Object.keys(obj2)
+// for (key in keys) {
+//   if (obj2[key] !== obj1[key]) {
+// return false;
+//   }
+// }
+  const assertObjectsEqual2 = function(actual, expected) {
   let keys = Object.keys(actual)
   for (key of keys) {
     console.log(key)
@@ -56,6 +56,8 @@ const assertObjectsEqual = function(actual, expected) {
   }
   return true;
 }
-x = { a: '1', b: 2 }
-y = { b: 2, a: '1' }
-console.log(assertObjectsEqual(x, y))
+// x = { a: '1', b: 2 }
+// y = { b: 2, a: '1' }
+// console.log(assertObjectsEqual(x, y))
+
+module.exports ={assertObjectsEqual}
