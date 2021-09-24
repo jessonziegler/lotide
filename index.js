@@ -35,9 +35,9 @@ module.exports = {
   assertObjectsEqual,
   assertEqual,
   assertArraysEqual,
-  head:   head,
-  tail:   tail,
-  middle: middle
+  head,
+  tail,
+  middle
 };
 
 
