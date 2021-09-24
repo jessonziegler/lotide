@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@jessonziegler/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "First Project",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/jessonziegler/lotide.git"
   },
-  "author": "",
+  "author": "Jesson Ziegler",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jessonziegler/lotide/issues"
